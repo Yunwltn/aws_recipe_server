@@ -207,7 +207,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/aws-recipe-flask-app/dev/1673398068706-2023-01-11T00:47:48.706Z/aws-recipe-flask-app.zip"
+          "S3Key": "serverless/aws-recipe-flask-app/dev/1673402664051-2023-01-11T02:04:24.051Z/aws-recipe-flask-app.zip"
         },
         "Handler": "s_api.handler",
         "Runtime": "python3.9",
@@ -225,14 +225,14 @@
         "ApiLogGroup"
       ]
     },
-    "ApiLambdaVersionyyZJN7G7XKquES2SA2W7eLemQ6SbNDcYBgJ6jLP4gMw": {
+    "ApiLambdaVersionkZ8Az9ejHt97Fw7pZKBHAcKGw69qNBY6dxLraafMM": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "ApiLambdaFunction"
         },
-        "CodeSha256": "H6c309A3bv9CLCdPAGvQC+W7prka/6FJPhTvGDXnL3c="
+        "CodeSha256": "WXXVXPp7dp456guUOETjkOczP3YYzhKZsMsG0e+rUe8="
       }
     },
     "HttpApi": {
@@ -390,7 +390,7 @@
     "ApiLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "ApiLambdaVersionyyZJN7G7XKquES2SA2W7eLemQ6SbNDcYBgJ6jLP4gMw"
+        "Ref": "ApiLambdaVersionkZ8Az9ejHt97Fw7pZKBHAcKGw69qNBY6dxLraafMM"
       },
       "Export": {
         "Name": "sls-aws-recipe-flask-app-dev-ApiLambdaFunctionQualifiedArn"
